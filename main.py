@@ -26,9 +26,9 @@ class MyClient(discord.Client):
 
     elif message.content == 'ping':
       await message.channel.send('pong')
-    else:
-      await message.channel.send(
-          'open your eyes and type correctly Unknown command')
+    # else:
+    #   await message.channel.send(
+    #       'open your eyes and type correctly Unknown command')
 
 
 def main():
