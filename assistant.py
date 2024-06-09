@@ -31,4 +31,3 @@ def create_assignment(query):
     messages = get_response(client, thread_id, assistant_id, query)
     print(messages)
     return messages
-create_assignment("create assignment on for loop")
